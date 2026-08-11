@@ -1,4 +1,4 @@
-{:repository/name "com-etzhayyim-isco"
+{:repository/name "isco"
  :repository/category :actor
  :repository/canonical-format :edn
  :repository/canonical-metadata "manifest.edn"

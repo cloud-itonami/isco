@@ -1,0 +1,6 @@
+{:repo/id "cloud-itonami/isco"
+ :repo/plane :role
+ :repo/role :workforce-classification-coordinator
+ :repo/catalog "cloud-itonami/org-ilo-isco"
+ :repo/consumer-family "cloud-itonami-isco-*"
+ :repo/compatibility-identities ["did:web:isco.etzhayyim.com"]}
