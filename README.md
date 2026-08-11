@@ -1,5 +1,13 @@
 # ISCO Workforce Coordinator
 
+**Repository**: `cloud-itonami/isco`
+
+This repository owns workforce lookup, classification, and materialization
+workflows. The source-standard catalog boundary is
+`cloud-itonami/org-ilo-isco`; per-occupation operational blueprints remain in
+the `cloud-itonami-isco-*` family. Historical DIDs and protocol namespaces are
+preserved as compatibility identities.
+
 Standalone actor repository for the complete ILO ISCO-08 classification mirror:
 619 occupations across the 10/43/130/436 hierarchy.
 
