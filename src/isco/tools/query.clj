@@ -1,6 +1,6 @@
 (ns isco.tools.query
   (:require [clojure.edn :as edn]
-            [clojure.string :as str]))
+            [kotoba.lang.text :as str]))
 
 (defn- load-seed [path]
   (edn/read-string (slurp path)))
