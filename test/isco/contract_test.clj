@@ -1,7 +1,7 @@
 (ns isco.contract-test
   (:require [clojure.edn :as edn]
             [clojure.java.io :as io]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [clojure.test :refer [deftest is]]))
 
 (defn read-edn [path] (edn/read-string (slurp path)))
