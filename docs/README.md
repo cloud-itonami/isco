@@ -12,7 +12,7 @@ ADR-2605215000 §1 に抵触しない)。
 | ファイル | 役割 |
 |---|---|
 | `data/isco-occupations.edn` | ISCO-08 の EAVT Datom スキーマと全619ノードの authoritative seed。 |
-| `src/isco/coordinator.clj` | kotoba-clj coordinator source。 |
+| `src/isco/coordinator.cljk` | kotoba-clj coordinator source。 |
 | `lex/` | actor/open-isco contract の canonical EDN。 |
 | `wire/` | JSON/JSON-LD/BPMN の外部表現。 |
 
@@ -25,7 +25,7 @@ ADR-2605215000 §1 に抵触しない)。
 
 ## 検証と外部 build
 
-`bb -cp src:test run_tests.clj` が seed、contract、actor boundary を検証する。
+`bb -cp src:test run_tests.cljk` が seed、contract、actor boundary を検証する。
 WASM build が必要な場合は `dependencies.edn` に固定された flat west sibling
 `orgs/kotoba-lang/kotoba` の resource-guard 対応 build workflow を使い、生成物は
 build output に置く。repository へ commit しない。
