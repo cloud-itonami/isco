@@ -15,12 +15,12 @@ Standalone actor repository for the complete ILO ISCO-08 classification mirror:
 - `data/isco-occupations.edn`: authoritative occupation hierarchy
 - `lex/`: canonical EDN API contracts
 - `wire/`: external JSON, JSON-LD, BPMN, and sample payloads
-- `src/isco/coordinator.clj`: kotoba-clj coordinator source
+- `src/isco/coordinator.cljk`: kotoba-clj coordinator source
 
 Run the deterministic, network-free suite with:
 
 ```sh
-bb -cp src:test run_tests.clj
+bb -cp src:test run_tests.cljk
 ```
 
 Generated WASM, shell build runners, and Go/TinyGo artifacts are intentionally
