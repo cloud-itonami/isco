@@ -20,7 +20,7 @@ Standalone actor repository for the complete ILO ISCO-08 classification mirror:
 Run the deterministic, network-free suite with:
 
 ```sh
-bb -cp src:test run_tests.cljk
+kbb -cp src:test run_tests.cljk
 ```
 
 Generated WASM, shell build runners, and Go/TinyGo artifacts are intentionally

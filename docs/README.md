@@ -25,7 +25,7 @@ ADR-2605215000 §1 に抵触しない)。
 
 ## 検証と外部 build
 
-`bb -cp src:test run_tests.cljk` が seed、contract、actor boundary を検証する。
+`kbb -cp src:test run_tests.cljk` が seed、contract、actor boundary を検証する。
 WASM build が必要な場合は `dependencies.edn` に固定された flat west sibling
 `orgs/kotoba-lang/kotoba` の resource-guard 対応 build workflow を使い、生成物は
 build output に置く。repository へ commit しない。

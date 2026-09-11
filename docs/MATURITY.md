@@ -33,7 +33,7 @@ attributes, 0 dangling `:isco.occupation/parent` refs, 0 nil rows.
 
 ## Verification
 
-`bb -cp src:test run_tests.cljk` verifies actor boundary, seed integrity, canonical
+`kbb -cp src:test run_tests.cljk` verifies actor boundary, seed integrity, canonical
 contracts, dependencies, and the generated/deprecated-artifact exclusion floor.
 
 ## Sourcing (G8/G11)
