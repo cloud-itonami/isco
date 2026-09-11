@@ -92,7 +92,7 @@
     (println "gaps:" (count gaps))))
 
 (defn- usage []
-  (println "Usage: bb query.clj <seed.edn> <command> [code]"))
+  (println "Usage: kbb query.cljk <seed.edn> <command> [code]"))
 
 (defn -main [& args]
   (if (>= (count args) 2)
