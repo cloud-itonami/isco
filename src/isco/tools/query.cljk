@@ -1,5 +1,5 @@
 (ns isco.tools.query
-  (:require [clojure.edn :as edn]
+  (:require [kotoba.lang.edn :as edn]
             [kotoba.lang.text :as str]))
 
 (defn- load-seed [path]
