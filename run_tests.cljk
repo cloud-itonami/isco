@@ -1,4 +1,4 @@
-(require '[clojure.test :as t])
+(require '[kotoba.test :as t])
 
 (doseq [ns-sym '[isco.murakumo-test isco.seed-test isco.contract-test]]
   (require ns-sym))

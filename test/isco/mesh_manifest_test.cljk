@@ -1,7 +1,7 @@
 (ns isco.mesh-manifest-test
   (:require [clojure.edn :as edn]
             [clojure.java.io :as io]
-            [clojure.test :refer [deftest is testing]]))
+            [kotoba.test :refer [deftest is testing]]))
 
 (deftest mesh-manifest-points-to-present-component
   (let [manifest (edn/read-string (slurp (io/file "kotoba.app.edn")))
