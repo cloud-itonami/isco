@@ -7,11 +7,11 @@
       "enabled": true,
       "enabled_toolsets": null,
       "id": "550c91b805c2",
-      "model": "qwen3.8-27b-whitehacker",
+      "model": "murakumo/free",
       "name": "itonami-isco-4-scout",
       "no_agent": false,
       "prompt": "Read SOUL.md. Run the evidence script if there was no THROTTLED/[SILENT] banner, then report ONE finding per the report format. Propose at most one migration slice for the frontier actor.",
-      "provider": "kotoba",
+      "provider": "murakumo",
       "schedule": {
         "kind": "cron",
         "expr": "10 2 * * *",
