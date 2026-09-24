@@ -1,5 +1,5 @@
 (ns isco.tools.validate
-  (:require [clojure.edn :as edn]
+  (:require [kotoba.lang.edn :as edn]
             [clojure.set :as set]))
 
 (defn validation-result [document]
