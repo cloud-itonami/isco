@@ -4,7 +4,7 @@
 ;; actor.  The agent reads SCANNED + member list and reports ONE finding.
 ;; Run: nbb scripts/isco8_evidence.cljs
 
-(require '[clojure.string :as str]
+(require '[kotoba.lang.text :as str]
          '["node:child_process" :as cp]
          '["node:fs" :as fs]
          '["node:path" :as path])
