@@ -5,7 +5,7 @@
 ;; finding.  Never re-measures inline; never fabricates a test result.
 ;; Run: nbb scripts/isco4_evidence.cljs
 
-(require '[clojure.string :as str]
+(require '[kotoba.lang.text :as str]
          '["node:child_process" :as cp]
          '["node:fs" :as fs]
          '["node:path" :as path]
