@@ -3,13 +3,12 @@
  :decision "adr-2609111500-cljk-rename-all-clojure-source (com-junkawasaki/root 90-docs/adr; owner instruction 2026-09-11)"
  :rule "value = the extension the file had before the rename. A path ending in .clj.cljk or .cljs.cljk kept it in the name because both platform files existed (or the plain target was taken)."
  :origins
- {"run_tests.cljk" ".clj"
-  "src/isco/coordinator.cljk" ".clj"
-  "src/isco/methods/mesh.cljk" ".clj"
-  "src/isco/murakumo.cljk" ".cljc"
-  "src/isco/tools/query.cljk" ".clj"
-  "src/isco/tools/validate.cljk" ".clj"
-  "test/isco/contract_test.cljk" ".clj"
-  "test/isco/mesh_manifest_test.cljk" ".clj"
-  "test/isco/murakumo_test.cljk" ".cljc"
-  "test/isco/seed_test.cljk" ".clj"}}
+ {"hermes/profiles/itonami-isco-1/scripts/isco1_evidence.cljk" ".cljs"
+  "hermes/profiles/itonami-isco-2/scripts/isco2_evidence.cljk" ".cljs"
+  "hermes/profiles/itonami-isco-3/scripts/isco3_evidence.cljk" ".cljs"
+  "hermes/profiles/itonami-isco-4/scripts/isco4_evidence.cljk" ".cljs"
+  "hermes/profiles/itonami-isco-5/scripts/isco5_evidence.cljk" ".cljs"
+  "hermes/profiles/itonami-isco-6/scripts/isco6_evidence.cljk" ".cljs"
+  "hermes/profiles/itonami-isco-7/scripts/isco7_evidence.cljk" ".cljs"
+  "hermes/profiles/itonami-isco-8/scripts/isco8_evidence.cljk" ".cljs"
+  "hermes/profiles/itonami-isco-9/scripts/isco9_evidence.cljk" ".cljs"}}
